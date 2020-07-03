@@ -58,6 +58,8 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#3457cc"
+        - name: PODINFO_UI_MESSAGE
+          value: "This did be changing."
         livenessProbe:
           httpGet:
             path: /healthz
